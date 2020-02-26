@@ -23,7 +23,7 @@ background-color: #777;;
   width: 495px; 
   font-size: 18px;
   margin: auto;
-  padding: 40px;
+  padding: 40px 20px 40px;
   height: 260px;
   margin-left: 58px;
 
@@ -56,11 +56,12 @@ background-color: #777;;
   background-color:#777;
   text-align: center;
   font-size: 18px; 
-  padding: 20px;
-  height: 200px;
+  padding: 20px 20px 20px 20px;
+  line-height: 40px;
   border-color: #777;
   margin: auto;
   align-items: stretch;
+  width: auto;
   
 
   
@@ -75,6 +76,29 @@ background-color: #777;;
 }
 
 .section3{
-  
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777;
+  background-color: white;
+  text-align: center; 
+  font-size: 18px;
+  margin: auto;
+  padding: 40px 0px 30px 40px;
+  line-height:0px ;
+  margin-top: 10px;
+}
+
+h1,h2,h3{
+  display: inline;
+}
+
+.section4{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777;
+  background-color: white;
+  text-align: center; 
+  font-size: 18px;
+  margin: auto;
+  padding: 0px 20px 10px 20px;
+ 
 
 }
