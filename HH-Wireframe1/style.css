@@ -1,5 +1,6 @@
 .Grey{
-background-color: #777;;
+background-color: #777;
+
 }
 
 .Header{
@@ -7,9 +8,8 @@ background-color: #777;;
   color: #777;
   background-color: white;
   text-align: center;
-  width: 960px; 
+  width: 980px; 
   font-size: 18px;
-  margin: auto;
   padding: 40px;
 
 }
@@ -25,7 +25,6 @@ background-color: #777;;
   margin: auto;
   padding: 40px 20px 40px;
   height: 260px;
-  margin-left: 58px;
 
   
  
@@ -37,14 +36,10 @@ background-color: #777;;
   color: #777;
   background-color: white;
   text-align: center;
-  width: 400px;
   font-size: 18px;
-  margin: auto;
-  padding: 40px;
-  height: 260px;
-  margin-right: 56px;
-  margin-left: 40px;
-  
+  padding-top: 40px;
+  flex-grow: 1;
+  margin-left: 20px;
   
   
 
@@ -69,7 +64,13 @@ background-color: #777;;
 
 .flex{
   display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: right;
+  width: 1060px;
+
 }
+
 
 .flex2{
   justify-content: center;
@@ -101,4 +102,10 @@ h1,h2,h3{
   padding: 0px 20px 10px 20px;
  
 
+}
+
+.Max{
+  max-width: 980px;
+  text-align: center;
+  margin: auto;
 }
